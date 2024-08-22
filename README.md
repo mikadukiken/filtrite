@@ -11,7 +11,7 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 | [Bromite Extended (Soft)](https://github.com/xarantolus/filtrite/releases/latest/download/bromite-extended-soft.dat) | Same as the "Bromite Extended" list, but with less aggressive filtering (should break fewer sites) |
 | [German](https://github.com/xarantolus/filtrite/releases/latest/download/german.dat) | The "Bromite Extended" list with additional region-specific blocklists for german sites |
 
-Alternatively, you can [go here to search forks of this project](https://filterlists.010.one/) for more lists, e.g. for other countries.
+あるいは、[このプロジェクトのフォークを検索するにはこちらへ](https://filterlists.010.one/) で、他の国のリストなどを検索することもできます。
 
 
 これらのリストはGitHub Actionsを使って定期的に自動更新されます。
