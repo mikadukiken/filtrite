@@ -1,8 +1,8 @@
-## filtrite
-filtrite is a project for generating filter lists for [Bromite](https://www.bromite.org/) and [Cromite](https://www.cromite.org/). See the page about [Custom Ad Block Filters](https://www.bromite.org/custom-filters) for more info.
+## filtrite-japanese
+filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.org/)のフィルタリストを生成するプロジェクトです。 詳しくは[Custom Ad Block Filters](https://www.bromite.org/custom-filters)のページをご覧ください。
 
 # Lists
-You can choose any list from the table, then hold the name to copy its link. Add it to Bromite by going to settings > AdBlock settings, then setting "Filters URL" to the link you just copied.
+表から任意のリストを選択し、名前を長押ししてリンクをコピーします。 設定＞AdBlock setting（Cromiteの場合はLegacy AdBlock setting）で「Filters URL」をコピーしたリンクに設定し、Bromiteに追加する。
 
 | Link | Description  |
 | ------ | ------|
