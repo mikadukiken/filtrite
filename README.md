@@ -19,8 +19,9 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 
 **Note**: 使用されているすべてのリスト形式が、[ルールセット生成ツール](https://github.com/xarantolus/subresource_filter_tools)によって実際にサポートされているかどうかは、100%確実ではありません(出力がいくつかの失敗を示しているため)。 もしそれについてコメントがあれば、issueを開いてください :)
 
+
 ### Advanced blocking
-The normal Bromite ad blocking engine does not support all blocking formats. However, since the introduction of user scripts, it has become possible to block even more annoying elements. If you want more blockers (e.g. for cookie prompts), see my [custom Bromite user scripts repository](https://github.com/xarantolus/bromite-userscripts/).
+通常のBromite広告ブロックエンジンは、すべてのブロック形式をサポートしているわけではありません。 しかし、ユーザースクリプトの導入により、より多くの煩わしい要素をブロックすることが可能になりました。 より多くのブロッカー（例えば、クッキープロンプト用）が必要な場合は、こちらの[カスタムBromiteユーザースクリプトリポジトリ](https://github.com/xarantolus/bromite-userscripts/)を参照してください。
 
 ### Using your own filter lists
 This program is designed in a way that allows easily adding new lists.
