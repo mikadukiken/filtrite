@@ -24,6 +24,28 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 通常のBromite広告ブロックエンジンは、すべてのブロック形式をサポートしているわけではありません。 しかし、ユーザースクリプトの導入により、より多くの煩わしい要素をブロックすることが可能になりました。 より多くのブロッカー（例えば、クッキープロンプト用）が必要な場合は、こちらの[カスタムBromiteユーザースクリプトリポジトリ](https://github.com/xarantolus/bromite-userscripts/)を参照してください。
 
 ### Using your own filter lists
+このプログラムは、新しいリストを簡単に追加できるように設計されています。
+
+新しいリストを作成するには
+
+このリポジトリをフォークする
+リポジトリの "Actions" タブを開いて GitHub アクションを有効にします。
+リストの名前を決めます。例えば、次の例では example-list とします。 ファイル名の末尾は.txtでなければならないので、ここではexample-list.txtとします（listsディレクトリに置いてください）。
+使いたいフィルターリストを検索してください。 例えば、"uBlock Origin "または "AdBlock Plus "形式のリストをここで見つけることができます（ただし、すべてのタイプのルールがサポートされていない可能性があります）。 info "から "View "に進み、URLをリストにコピーしてください。
+lists/example-list.txt（listsディレクトリ内）に、先ほどコピーしたフィルタリストへのURLを含むファイルを作成します。 以下のようなファイルにしてください：
+# で始まる行は無視され, 空行も許される.
+# 1行に1つのURLを列挙する：
+https://easylist.to/easylist/easylist.txt
+https://...
+
+1行に1つのURLを列挙してください: ... # 以下の行は正しく動作しません.
+http:// # URLのコメントが無効です
+ファイルを保存してコミットし、プッシュします。 GitHub Actions がリストを作成し、リリースを作成します。
+GitHub Actions がリリースを生成したら、リリースに含まれるリンク先の URL をコピーしましょう。 この URL は https://github.com/USERNAME/filtrite/releases/latest/download/FILENAME.dat のようになります。 URL (ユーザー名/ファイル名の部分を除く) に数字が含まれている場合は、間違ったリンクをコピーしています。
+生成されたフィルターファイルのサイズが、許可されている最大20MB以下であることを確認してください。 そうでない場合は、いくつかのリストを削除する必要があります。
+Bromiteの設定で、このURLをフィルターファイルとして設定してください。
+GitHubは60日後にスケジュールされたワークフローを無効にするため、フォークを "生かす "ために何かをコミットしなければならないことがあります。
+
 This program is designed in a way that allows easily adding new lists.
 
 To create a new list:
