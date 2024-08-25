@@ -9,8 +9,8 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 | [Bromite Default](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-default.dat) | Bromite [デフォルトのフィルターリスト](https://github.com/bromite/filters)、ただしこのツールで生成されたもの。|
 | [Bromite Extended](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-extended.dat) | デスクトップの[uBlock Origin](https://github.com/gorhill/uBlock)で使用している迷惑ブロック機能を追加したデフォルトリストです。 |
 | [Bromite Extended (Soft)](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-extended-soft.dat) | 「Bromite Extended」リストと同じですが、フィルタリングはそれほど強力ではありません（破損するサイトが少なくなります）。 |
-| [German](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/german.dat) | Bromite Extended "リストには、ドイツのサイトの地域別ブロックリストが追加されています。 |
-|[tamago](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/tamago.dat)|たまごフィルタをBromite用に変換したもの。|
+| [German](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/german.dat) | Bromite Extendedリストに、ドイツのサイトの地域別ブロックリストが追加されています。 |
+|[tamago](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/tamago.dat)|もちお様の[たまごフィルタ](https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/tamago_filter.txt)をBromite用に変換したもの。|
 
 あるいは、[このプロジェクトのフォークを検索するにはこちらへ](https://filterlists.010.one/) で、他の国のリストなどを検索することもできます。
 
