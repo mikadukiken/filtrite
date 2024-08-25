@@ -9,7 +9,7 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 | [Bromite Default](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-default.dat) | Bromite [デフォルトのフィルターリスト](https://github.com/bromite/filters)、ただしこのツールで生成されたもの。|
 | [Bromite Extended](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-extended.dat) | デスクトップの[uBlock Origin](https://github.com/gorhill/uBlock)で使用している迷惑ブロック機能を追加したデフォルトリストです。 |
 | [Bromite Extended (Soft)](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-extended-soft.dat) | 「Bromite Extended」リストと同じですが、フィルタリングはそれほど強力ではありません（破損するサイトが少なくなります）。 |
-| [German](https://github.com/xarantolus/filtrite/releases/latest/download/german.dat) | The "Bromite Extended" list with additional region-specific blocklists for german sites |
+| [German](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/german.dat) | Bromite Extended "リストには、ドイツのサイトの地域別ブロックリストが追加されています。 |
 
 あるいは、[このプロジェクトのフォークを検索するにはこちらへ](https://filterlists.010.one/) で、他の国のリストなどを検索することもできます。
 
