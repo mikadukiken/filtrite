@@ -44,11 +44,11 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
     ```
 6. ファイルを保存し、コミットしてプッシュします。 GitHub Actions がリストを作成し、リリースを作成します。
 7. GitHub Actions がリリースを生成したら、そのリリースにあるリンク先の URL をコピーすれば、生成された最新版を常に入手することができます。 このURLは `https://github.com/USERNAME/filtrite/releases/latest/download/FILENAME.dat` のようになります。 URL（ユーザー名/ファイル名の部分を除く）に数字が含まれている場合は、間違ったリンクをコピーしています。
-8. Check that the generated filter file size is less than the allowed maximum of [20 MB](https://github.com/bromite/bromite/blob/6f40f8341ab3fbcab458c10fe7b6bbcb8f881404/build/patches/Bromite-subresource-adblocker.patch#L1160-L1161). If it isn't, you must remove some lists
-9. Set this URL as the filter file in Bromite settings.
+8. 生成されたフィルターファイルのサイズが、許可された最大値[20MB](https://github.com/bromite/bromite/blob/6f40f8341ab3fbcab458c10fe7b6bbcb8f881404/build/patches/Bromite-subresource-adblocker.patch#L1160-L1161)未満であることを確認してください。 もしそうでなければ、いくつかのリストを削除する必要があります。
+9. Bromiteの設定で、このURLをフィルターファイルとして設定します。
 
-Another thing to note is that [GitHub disables scheduled workflows after 60 days](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow), meaning that you sometimes have to commit something to keep your fork "alive".
+もう一つ注意すべきことは、[GitHubは60日を過ぎるとスケジュールされたワークフローを無効にする](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)ことだ。つまり、フォークを「生かす」ために何かをコミットしなければならないことがある。
 
 
 ### [License](LICENSE)
-This is free as in freedom software. Do whatever you like with it.
+これはフリーソフトのように自由です。 好きなように使ってください。
