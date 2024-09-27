@@ -1,0 +1,3 @@
+https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
+https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
+https://filters.adtidy.org/extension/ublock/filters/7_optimized.txt
