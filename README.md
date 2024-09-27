@@ -11,6 +11,7 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 | [Bromite Extended (Soft)](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/bromite-extended-soft.dat) | 「Bromite Extended」リストと同じですが、フィルタリングはそれほど強力ではありません（破損するサイトが少なくなります）。 |
 | [German](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/german.dat) | Bromite Extendedリストに、ドイツのサイトの地域別ブロックリストが追加されています。 |
 |[tamago](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/tamago.dat)|もちお様の[たまごフィルタ](https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/tamago_filter.txt)をBromite用に変換したもの。|
+|[AdGuard](https://github.com/mikadukiken/filtrite-japanese/releases/latest/download/adguard_base+mobile+japanese.dat)|AdGuardの[ベースフィルタ](https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt)、[モバイル広告フィルタ](https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt)、[日本語フィルタ](https://filters.adtidy.org/extension/ublock/filters/7_optimized.txt)をマージしてBromite用に変換したもの。|
 
 あるいは、[このプロジェクトのフォークを検索するにはこちらへ](https://filterlists.010.one/) で、他の国のリストなどを検索することもできます。
 
