@@ -54,6 +54,11 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 ### [License](LICENSE)
 これはフリーソフトのように自由です。 好きなように使ってください。
 
-### AdGuardフィルタのライセンス
+### フィルタのライセンス
+たまごフィルタ
+もちお様が作成してパブリックドメインで公開されているものを使用させていただいております。
+https://eeii0a5l.github.io/mochifilter_homepage/tamago.html
+
+AdGuardフィルタ
 GNU General Public License v3.0に基づき使用しています。
 https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
