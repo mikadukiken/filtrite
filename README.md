@@ -47,7 +47,7 @@ filtriteは[Bromite](https://www.bromite.org/)と[Cromite](https://www.cromite.o
 8. 生成されたフィルターファイルのサイズが、許可された最大値[20MB](https://github.com/bromite/bromite/blob/6f40f8341ab3fbcab458c10fe7b6bbcb8f881404/build/patches/Bromite-subresource-adblocker.patch#L1160-L1161)未満であることを確認してください。 もしそうでなければ、いくつかのリストを削除する必要があります。
 9. Bromiteの設定で、このURLをフィルターファイルとして設定します。
 
-もう一つ注意すべきことは、[GitHubは60日を過ぎるとスケジュールされたワークフローを無効にする](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)ことだ。つまり、フォークを「生かす」ために何かをコミットしなければならないことがある。
+もう一つ注意すべきことは、[GitHubは60日を過ぎるとスケジュールされたワークフローを無効にする](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)こと。つまり、フォークを「生かす」ために何かをコミットしなければならないことがあります。
 
 
 ### [License](LICENSE)
